@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: backend-service
+    env: node
+    plan: free
+    repo: https://github.com/ayushkhatana369/backendd
+    branch: main
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
